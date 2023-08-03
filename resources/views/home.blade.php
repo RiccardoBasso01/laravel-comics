@@ -7,10 +7,13 @@
     <meta name="author" content="Riccardo Basso">
     <link rel="icon" type="image/svg+xml" href="{{ asset('img/dc-logo.png') }}" />
     <title>DC - The Official Home of DC</title>
+
+    {{-- importazione asset --}}
+    @vite('resources/js/app.js')
 </head>
 
 <body>
-
+    @include('partials.header')
 </body>
 
 </html>
