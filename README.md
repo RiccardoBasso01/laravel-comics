@@ -5,9 +5,10 @@
 
 > Step per impostare sass e bootstrap
 
--   Sul terminale installiamo il pacchetto con composer require pacificdev/laravel_9_preset
--   Sempre sul terminale, eseguire il comando php artisan preset:ui bootstrap
--   Eliminare dal file package.json la riga "type": "module" 4. Lanciare i comandi npm i ed npm run dev
+-   Sul terminale installiamo il pacchetto con **_composer require pacificdev/laravel_9_preset_**
+-   Sempre sul terminale, eseguire il comando **_php artisan preset:ui bootstrap_**
+-   Eliminare dal file package.json la riga **_"type": "module"_**
+-   Lanciare i comandi **_npm i_** ed **_npm run dev_**
 -   Importare poi gli asset dal file app.js nella head del layout utilizzando la direttiva @vite
 
 Creare più pagine che condividono lo stesso layout
