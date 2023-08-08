@@ -10,7 +10,7 @@
     <div class="jumbotron">
         <div class="container-xl">
             <div class="jumbo-content">
-                <h2 class="jumbo-title">The Flash</h2>
+                <h1 class="jumbo-title">The Flash</h1>
             </div>
         </div>
     </div>
@@ -18,7 +18,7 @@
     <div class="comics-list">
         <div class="container-xl">
             <div class="comics-title">
-                <h3>LATEST COMICS & GRAPHIC NOVELS</h3>
+                <h2>LATEST COMICS & GRAPHIC NOVELS</h2>
             </div>
 
             <div class="comics">

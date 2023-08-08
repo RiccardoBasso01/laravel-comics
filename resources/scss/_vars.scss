@@ -2,6 +2,7 @@
 // ___ Colori
 $primaryColor: #0C7CEB;
 $darkGrey: #303030;
+$lightGrey:  #cdcdcd;
 // ___ Fonts
 $primaryFont: 'Fira Sans Condensed', sans-serif;
 $openSans: "Open Sans", sans-serif;
@@ -33,9 +34,9 @@ $firaCode: 'Fira Code', monospace;
     }@else if $size == 'l'{
         font-size: 20px;
     }@else if $size == 'xl'{
-        font-size: 40px;
+        font-size: 30px;
     }@else if $size == 'xxl'{
-        font-size: 65px;
+        font-size: 40px;
     }@else if $size == 'xxxl'{
         font-size: 80px;
     }@else {

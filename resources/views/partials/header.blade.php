@@ -20,7 +20,7 @@
             </ul>
 
         </div>
-        <div class="center-Y gap-3">
+        <div class="center gap-3">
             {{-- search-bar --}}
             <div class="search-bar">
                 <a href="#"><img src="{{ Vite::asset('public/img/search_icon.png') }}" alt="search-icon"></a>
