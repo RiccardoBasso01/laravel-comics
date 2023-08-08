@@ -13,7 +13,12 @@
 </head>
 
 <body>
+    {{-- header --}}
     @include('partials.header')
+
+    {{-- main --}}
+    @include('partials.main')
+
 </body>
 
 </html>

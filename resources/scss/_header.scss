@@ -1,70 +1,52 @@
-$primaryFont: 'Fira Sans Condensed', sans-serif;
-$openSans: "Open Sans", sans-serif;
-$FiraCode: 'Fira Code Variable', sans-serif;
-
-body {
-    font-family: $primaryFont;
-}
-
-$primaryColor: #0C7CEB;
-$darkGrey: #303030;
-
+@use './vars' as *; 
 
 header {
-    display: block;
-    font-size: 13px;
-    font-weight: 900;
-    background-color: white;
-    position: sticky;
-    top: 0;
-    left: 0;
+    @include position(sticky, 0, $left: 0);
+    @include font('xs', 900);
     z-index: 1;
+    display: block;
+    background-color: white;
 }
 
 
 
-li {
+header li {
+    @include flex();
     height: 60px;
-    display: flex;
-    align-items: center;
     margin-right: 20px;
     position: relative;
 
-    &.active {
-        color: $primaryColor;
-    }
-
+    &.active,
     &:hover {
         color: $primaryColor;
     }
 }
 
 
-li.active::after,
-li:hover::after {
+header li.active::after,
+header li:hover::after {
     content: '';
+    @include position(absolute, $bottom: 0, $left: 0);
     width: 100%;
     height: 3px;
     background-color: $primaryColor;
-    position: absolute;
-    bottom: 0;
-    left: 0;
 }
 
-.container-xl {
-    display: flex;
-    justify-content: space-between;
+header .container-xl {
+    @include flex(space-between, auto);
     height: 60px;
     padding: 0 10px;
 }
 
-img {
-    width: 24px;
+.search-bar, 
+.hamburger-menu{
+    img {
+        width: 24px;
+    }
 }
 
 .logo {
-    display: flex;
-    align-items: center;
+    @include flex;
 
     img {
         width: 40px;

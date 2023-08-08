@@ -1,0 +1,63 @@
+// _________________________________ VARIABILI
+// ___ Colori
+$primaryColor: #0C7CEB;
+$darkGrey: #303030;
+// ___ Fonts
+$primaryFont: 'Fira Sans Condensed', sans-serif;
+$openSans: "Open Sans", sans-serif;
+$firaCode: 'Fira Code', monospace;
+
+// _________________________________ MIXIN
+@mixin position($position, $top: auto, $bottom: auto, $left: auto, $right: auto){
+    position: $position;
+    top: $top;
+    bottom: $bottom;
+    left: $left;
+    right: $right;
+}
+    
+@mixin flex( $justify-content: center, $align-items: center, $direction: row){
+    display: flex;
+    flex-direction: $direction;
+    justify-content: $justify-content;
+    align-items: $align-items;
+}
+
+@mixin font($size: inherit, $weight: inherit, $family: $primaryFont, $color:  inherit, $letter-spacing: normal, $text-transform: none ){
+    @if $size == 'xs'{
+        font-size: 13px;
+    }@else if $size == 's'{
+        font-size: 15px;
+    }@else if $size == 'm'{
+        font-size: 16px;
+    }@else if $size == 'l'{
+        font-size: 20px;
+    }@else if $size == 'xl'{
+        font-size: 40px;
+    }@else if $size == 'xxl'{
+        font-size: 65px;
+    }@else if $size == 'xxxl'{
+        font-size: 80px;
+    }@else {
+        font-size: $size;
+    }
+
+    font-weight: $weight;
+    font-family: $family;
+    color: $color;
+    letter-spacing: $letter-spacing;
+    text-transform: $text-transform;
+}
+
+@mixin grid_ul($numberOfCols, $spacing){
+    display: flex;
+    flex-wrap: wrap;
+    margin: (-$spacing) (-$spacing);
+    text-align: center;
+
+    li{
+        width: calc(100% / $numberOfCols);
+        padding: 0 $spacing;
+        margin: $spacing 0;
+    }
+}
