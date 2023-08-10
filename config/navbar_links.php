@@ -3,52 +3,52 @@ return    $links =
     [
         [
             'text' => 'CHARACTERS',
-            'url' => '#',
+            'url' => 'characters',
             'current' => false,
         ],
         [
             'text' => 'COMICS',
-            'url' => '#',
+            'url' => 'comics',
             'current' => true,
         ],
         [
             'text' => 'MOVIES',
-            'url' => '#',
+            'url' => 'movies',
             'current' => false,
         ],
         [
             'text' => 'TV',
-            'url' => '#',
+            'url' => 'tv',
             'current' => false,
         ],
         [
             'text' => 'GAMES',
-            'url' => '#',
+            'url' => 'games',
             'current' => false,
         ],
         [
             'text' => 'COLLECTIBLES',
-            'url' => '#',
+            'url' => 'collectibles',
             'current' => false,
         ],
         [
             'text' => 'VIDEOS',
-            'url' => '#',
+            'url' => 'videos',
             'current' => false,
         ],
         [
             'text' => 'FANS',
-            'url' => '#',
+            'url' => 'fans',
             'current' => false,
         ],
         [
             'text' => 'NEWS',
-            'url' => '#',
+            'url' => 'news',
             'current' => false,
         ],
         [
             'text' => 'SHOP',
-            'url' => '#',
+            'url' => 'shop',
             'current' => false,
         ],
     ];

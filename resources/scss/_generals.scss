@@ -24,6 +24,7 @@
 
 body {
     @include font('m', $family: $primaryFont);
+    display: block;
 }
 
 img {
