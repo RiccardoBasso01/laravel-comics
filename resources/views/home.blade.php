@@ -19,6 +19,8 @@
     {{-- main --}}
     @include('partials.main')
 
+    {{-- footer --}}
+    @include('partials.footer')
 </body>
 
 </html>

@@ -1,5 +1,5 @@
 @php
-    $imgNames = config('shops_links');
+    $imgNames = config('main_navbar');
     $comics = config('comics');
     
 @endphp
@@ -46,7 +46,8 @@
                     <li>
                         <a href="#"><img src="{{ asset('img/' . $imgName['url']) }}"
                                 alt="{{ $imgName['text'] }}"></a>
-                        <a href="#">{{ $imgName['text'] }}</a>
+                        <a
+                            href="#">{{ $imgName['text'] }}</a>
                     </li>
                 @endforeach
             </ul>
