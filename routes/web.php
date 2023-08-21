@@ -25,7 +25,7 @@ Route::get('/characters', function () {
 
 // comics
 Route::get('/comics', function () {
-    return view('comics');
+    return view('layouts.comics.index');
 })->name('comics');
 
 // movies

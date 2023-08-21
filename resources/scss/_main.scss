@@ -58,12 +58,9 @@
     background-color: $primaryColor;
     padding: 10px;
     display: inline-block;
-    translate: 0 -50%;
+    margin-bottom: 50px
 }
 
-.comics-list {
-    background-color: $darkGrey;
-}
 
 .comics ul {
     @include grid_ul(2, 10px);
@@ -74,12 +71,12 @@
 }
 
 .comic-subtitle {
-    @include font('xs', $family: $firaCode, $color: $lightGrey);
+    @include font('xs',500, $family: $firaCode, $color: $grey, $letter-spacing: 3px);
     margin: 5px 0;
 }
 
 .comic-title {
-    @include font('l',$weight: 700, $color: white);
+    @include font('l',$weight: 700, $color: black);
 }
 
 @media screen and (min-width: 576px) {

@@ -5,5 +5,5 @@
 @endsection
 
 @section('main')
-    <h1>Pagina secondaria</h1>
+    @include('layouts.comics.main')
 @endsection
