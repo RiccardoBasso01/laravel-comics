@@ -29,10 +29,10 @@ Route::get('/comics', function () {
 })->name('comics');
 
 // singoli comic
-Route::get('/comic', function () {
+Route::get('/comic/{index}', function ($index) {
     $comics = config('comics');
 
-    $comic = $comics[0];
+    $comic = $comics[$index];
     return view('layouts.comics.comic', compact('comic'));
 })->name('comic');
 

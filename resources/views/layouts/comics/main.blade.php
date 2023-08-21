@@ -11,9 +11,9 @@
 
         <div class="comics">
             <ul>
-                @foreach ($comics as $comic)
+                @foreach ($comics as $index => $comic)
                     <li>
-                        <a href="#">
+                        <a href="{{ url("/comic/$index") }}">
                             <img src="{{ $comic['thumb'] }}" alt="{{ $comic['series'] }}" title="{{ $comic['series'] }}">
                             <div class="comic-subtitle">{{ Str::of($comic['type'])->upper() }} </div>
                             <div class="comic-title">

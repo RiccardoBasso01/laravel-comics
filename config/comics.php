@@ -16,6 +16,7 @@ return $comics = [
         'price' => '$3.99',
         'series' => 'American Vampire 1976',
         'type' => 'comic book',
+        'description' => 'Paranoia reigns supreme. It\'s 1976, and this is the final chapter of the Eisner Award-winning American Vampire! At a seedy motorcycle rally in the desert where Skinner Sweet is closer than ever to his death wish, Pearl Jones and a shocking partner track him down for one last, desperate mission as the series that launched the careers of superstars Scott Snyder and Rafael Albuquerque concludes! Collects American Vampire 1976 #1-10.',
     ],
     [
         'thumb' =>
@@ -23,6 +24,7 @@ return $comics = [
         'price' => '$16.99',
         'series' => 'Aquaman',
         'type' => 'graphic novel',
+        'description' => 'The critically acclaimed miniseries that graduates Jackson Hyde from Aqualad to Aquaman is now available in one volume! Jackson Hyde finally has it all. Mentors who support him, a community that loves him, an honest relationship with his mother, and access to Aquaman\'s private training facility in Atlantis. Well, he had it all-until that training facility and half the Atlantean palace got blown to kingdom come with Jackson inside. Now Jackson stands accused of wrecking the life he worked so hard to build as a mysterious new villain stalks him from the shadows. Aqualad\'s going to need all his skills, wit, and cunning just to prove his own innocence, let alone inherit the name Aquaman! Plus-revisit Jackson Hyde\'s first appearance as Aquaman on an adventure with Arthur Curry\'s daughter in DC\'s not-so-distant future! Collects Aquaman: The Becoming #1-6 and Future State: Aquaman #1-2.',
     ],
     [
         'thumb' =>
@@ -30,6 +32,7 @@ return $comics = [
         'price' => '$2.99',
         'series' => 'Batgirl',
         'type' => 'comic book',
+        'description' => 'As Gotham City\'s renovations begin, mysterious metal statues begin appearing all over town, which leads Batgirl to believe they may be more than meets the eye. What\'s even creepier is whatever is terrorizing Alejo\'s constituents. Jason Bard doesn\'t want to admit it, but his body doesn\'t feel quite right after leaving Unearth. Did something follow him out of the portal?',
     ],
     [
         'thumb' =>
@@ -37,6 +40,7 @@ return $comics = [
         'price' => '$3.99',
         'series' => 'Tim Drake: Robin',
         'type' => 'comic book',
+        'description' => 'Tim\'s mysterious new admirer/nemesis is closing in and they could be anyone. With everyone he trusts potentially compromised or in danger, the World\'s Greatest Robin™ has no one and nowhere left to turn for help…except for himself. But can Tim Drake get out of his own way for long enough to catch up to a villain who seemingly knows everything about Tim, down to the very way he thinks?',
     ],
     [
         'thumb' =>
@@ -44,6 +48,7 @@ return $comics = [
         'price' => '$2.99',
         'series' => 'Batman Beyond',
         'type' => 'comic book',
+        'description' => 'Neo-Gotham is alive and has killed Bruce Wayne. It\'s rejected Terry McGinnis as Batman and offered him the chance to escape. Terry turned it down-he is the city\'s protector, and he will uphold the legacy of Batman. Now Neo-Gotham will do everything in its power to destroy Terry, including creating brand-new villains to fight him. Terry\'s first year without Bruce Wayne begins…does he have a fighting chance? From the rising-star creative team of Collin Kelly and Jackson Lanzing (Kang the Conqueror) and Max Dunbar (Batman: Urban Legends, Robin), a new future for Batman Beyond has begun! Collects the six-issue miniseries.',
     ],
     [
         'thumb' =>
@@ -51,6 +56,7 @@ return $comics = [
         'price' => '$3.99',
         'series' => 'Batman: The adventures continue season three ',
         'type' => 'comic book',
+        'description' => 'Alan Burnett and Paul Dini return once more to the world of Batman: The Animated Series! Someone is targeting the Muscle now that he\'s locked up in Blackgate Penitentiary. With his deep ties to the criminal underbelly of Gotham, the worst villains are calling for his head before he turns them over to the police! Batman will need to protect him, but can even the Dark Knight figure out where the next attack will come from?',
     ],
     [
         'thumb' =>
@@ -58,6 +64,8 @@ return $comics = [
         'price' => '$4.99',
         'series' => 'Tales from dark crisis',
         'type' => 'graphic novel',
+        'description' => 'Alan Burnett and Paul Dini return once more to the world of Batman: The Animated Series! Someone is targeting the Muscle now that he\'s locked up in Blackgate Penitentiary. With his deep ties to the criminal underbelly of Gotham, the worst villains are calling for his head before he turns them over to the police! Batman will need to protect him, but can even the Dark Knight figure out where the next attack will come from?',
+
     ],
     [
         'thumb' =>
@@ -65,6 +73,8 @@ return $comics = [
         'price' => '$5.99',
         'series' => 'Batman: The Joker War Zone',
         'type' => 'comic book',
+        'description' => 'Alan Burnett and Paul Dini return once more to the world of Batman: The Animated Series! Someone is targeting the Muscle now that he\'s locked up in Blackgate Penitentiary. With his deep ties to the criminal underbelly of Gotham, the worst villains are calling for his head before he turns them over to the police! Batman will need to protect him, but can even the Dark Knight figure out where the next attack will come from?',
+
     ],
     [
         'thumb' =>
@@ -72,6 +82,8 @@ return $comics = [
         'price' => '$6.99',
         'series' => 'Batman: Three Jokers',
         'type' => 'comic book',
+        'description' => 'Alan Burnett and Paul Dini return once more to the world of Batman: The Animated Series! Someone is targeting the Muscle now that he\'s locked up in Blackgate Penitentiary. With his deep ties to the criminal underbelly of Gotham, the worst villains are calling for his head before he turns them over to the police! Batman will need to protect him, but can even the Dark Knight figure out where the next attack will come from?',
+
     ],
     [
         'thumb' =>
@@ -79,6 +91,8 @@ return $comics = [
         'price' => '$4.99',
         'series' => 'Batman: White Knight Presents: Harley Quinn',
         'type' => 'comic book',
+        'description' => 'Alan Burnett and Paul Dini return once more to the world of Batman: The Animated Series! Someone is targeting the Muscle now that he\'s locked up in Blackgate Penitentiary. With his deep ties to the criminal underbelly of Gotham, the worst villains are calling for his head before he turns them over to the police! Batman will need to protect him, but can even the Dark Knight figure out where the next attack will come from?',
+
     ],
     [
         'thumb' =>
@@ -86,5 +100,7 @@ return $comics = [
         'price' => '$16.99',
         'series' => 'Green arrow',
         'type' => 'comic book',
+        'description' => 'Alan Burnett and Paul Dini return once more to the world of Batman: The Animated Series! Someone is targeting the Muscle now that he\'s locked up in Blackgate Penitentiary. With his deep ties to the criminal underbelly of Gotham, the worst villains are calling for his head before he turns them over to the police! Batman will need to protect him, but can even the Dark Knight figure out where the next attack will come from?',
+
     ]
 ];
