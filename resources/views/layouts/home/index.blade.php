@@ -1,10 +1,9 @@
-<!DOCTYPE html>
 @extends('layouts.index')
 
 @section('title')
-    Shop | {{ env('APP_NAME') }}
+    {{ env('APP_NAME') }} - The Official Home of DC
 @endsection
 
 @section('main')
-    <h1>Pagina secondaria</h1>
+    @include('layouts.home.main')
 @endsection

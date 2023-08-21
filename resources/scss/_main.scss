@@ -2,7 +2,7 @@
 
 .jumbotron {
     height: 500px;
-    background-image: url(../../public/img/jumbotron.avif);
+    background-image: url(../../public/img/jumbotron_2.avif);
     background-position: center;
     background-size: cover;
     box-shadow: 0px -20px 100px 10px black inset;
@@ -16,8 +16,16 @@
 }
 
 .jumbo-title {
+    text-shadow: 1px 1px 5px black;
     color: white;
-    margin-bottom: 50px;
+    >*{
+        margin-bottom: 20px;
+    }
+
+    p{
+        max-width: 80%;
+        line-height: 30px;
+    }
 }
 
 .main-nav {

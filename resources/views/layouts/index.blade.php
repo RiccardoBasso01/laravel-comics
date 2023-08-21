@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="author" content="Riccardo Basso">
     <link rel="icon" type="image/svg+xml" href="{{ asset('img/dc-logo.png') }}" />
-    <title>{{ env('APP_NAME') }} - The Official Home of DC</title>
+    <title>@yield('title')</title>
 
     <style>
         body {
@@ -22,7 +22,7 @@
     @include('partials.header')
 
     {{-- main --}}
-    @include('partials.main')
+    @yield('main')
 
     {{-- footer --}}
     @include('partials.footer')

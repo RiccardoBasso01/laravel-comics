@@ -1,16 +1,17 @@
 @php
     $imgNames = config('main_navbar');
     $comics = config('comics');
-    
 @endphp
 
 <main>
 
-    <link rel="stylesheet" href="./main_content">
     <div class="jumbotron">
         <div class="container-xl">
             <div class="jumbo-content">
-                <h1 class="jumbo-title">The Flash</h1>
+                <div>
+                    <h1 class="jumbo-title">BLUE BEETLE IS NOW PLAYING!</h1>
+                    <p>Are you ready to level up? DC's newest superhero spectacular is in theaters now!</p>
+                </div>
             </div>
         </div>
     </div>
@@ -46,8 +47,7 @@
                     <li>
                         <a href="#"><img src="{{ asset('img/' . $imgName['url']) }}"
                                 alt="{{ $imgName['text'] }}"></a>
-                        <a
-                            href="#">{{ $imgName['text'] }}</a>
+                        <a href="#">{{ $imgName['text'] }}</a>
                     </li>
                 @endforeach
             </ul>

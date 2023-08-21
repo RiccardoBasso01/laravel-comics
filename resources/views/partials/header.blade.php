@@ -7,13 +7,13 @@
         <div class="d-flex">
             {{-- logo --}}
             <div class="logo">
-                <a href="#"><img src="{{ Vite::asset('public/img/dc-logo.png') }}" alt="logo"></a>
+                <a href="{{ route('home') }}"><img src="{{ Vite::asset('public/img/dc-logo.png') }}" alt="logo"></a>
             </div>
 
             {{-- navbar --}}
             <ul class="navbar d-none">
                 @foreach ($links as $link)
-                    <li class="">
+                    <li @if (Route::is($link['route_name'])) class="active" @endif>
                         <a href="{{ route($link['url']) }}">{{ $link['text'] }}</a>
                     </li>
                 @endforeach

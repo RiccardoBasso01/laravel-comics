@@ -4,51 +4,51 @@ return    $links =
         [
             'text' => 'CHARACTERS',
             'url' => 'characters',
-            'current' => false,
+            'route_name' => 'characters',
         ],
         [
             'text' => 'COMICS',
             'url' => 'comics',
-            'current' => true,
+            'route_name' => 'comics',
         ],
         [
             'text' => 'MOVIES',
             'url' => 'movies',
-            'current' => false,
+            'route_name' => 'movies',
         ],
         [
             'text' => 'TV',
             'url' => 'tv',
-            'current' => false,
+            'route_name' => 'tv',
         ],
         [
             'text' => 'GAMES',
             'url' => 'games',
-            'current' => false,
+            'route_name' => 'games',
         ],
         [
             'text' => 'COLLECTIBLES',
             'url' => 'collectibles',
-            'current' => false,
+            'route_name' => 'collectibles',
         ],
         [
             'text' => 'VIDEOS',
             'url' => 'videos',
-            'current' => false,
+            'route_name' => 'videos',
         ],
         [
             'text' => 'FANS',
             'url' => 'fans',
-            'current' => false,
+            'route_name' => 'fans',
         ],
         [
             'text' => 'NEWS',
             'url' => 'news',
-            'current' => false,
+            'route_name' => 'news',
         ],
         [
             'text' => 'SHOP',
             'url' => 'shop',
-            'current' => false,
+            'route_name' => 'shop',
         ],
     ];
