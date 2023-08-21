@@ -71,7 +71,7 @@
 }
 
 .comic-subtitle {
-    @include font('xs',500, $family: $firaCode, $color: $grey, $letter-spacing: 3px);
+    @include font('xs',500, $family: $firaCode, $color: $grey, $letter-spacing: 3px, $text-transform: uppercase);
     margin: 5px 0;
 }
 

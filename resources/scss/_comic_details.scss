@@ -1,0 +1,27 @@
+#comic{
+display: flex;
+gap: 20px;
+margin: 50px 0;
+}
+
+
+.cover{
+    img{
+        width: 415px;
+    }
+}
+
+.description{
+    .comic-subtitle{
+        font-size: 16px;
+    }
+
+    p{
+        margin: 20px 0;
+        line-height: 25px;
+    }
+
+    button{
+        margin: 5px;
+    }
+}

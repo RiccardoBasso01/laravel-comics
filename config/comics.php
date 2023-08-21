@@ -8,6 +8,7 @@ return $comics = [
         'price' => '$19.99',
         'series' => 'Batman: The brave and the bold #2 ',
         'type' => 'comic book',
+        'description' => 'Infected with the Golden Iris Virus, Red Hood’s innermost desires have bubbled to the surface, and he is overcome by one thing: the desire for revenge against Batman! Elsewhen, in the Gotham of the 1800s, the Runaway and Vandal Savage continue their investigation into the mysterious illness overtaking the city. Join us for this penultimate chapter in the prequel to the action-packed game Gotham Knights. Each issue will also offer an exclusive code for readers to redeem in the game - and for issue 5, readers will receive the Gilded Age Bo Staff! DC UNIVERSE INFINITE subscribers can claim their exclusive codes by going to the MyDC section of DC UNIVERSE INFINITE and clicking on the INBOX tab. For more information and full redemption instructions, please visit DC.com/GothamKnightsFAQ.'
     ],
     [
         'thumb' =>
